@@ -1,5 +1,5 @@
 let ran, computer,user, vuser = 0, vcomp = 0, proceed = true, i = 0;
-// Note : For the function Victory, returning 1 means user's victory, -1 means computer's wins and 0 means its a draw
+// Note : For the function Victory, returning 1 means user wins, -1 means computer wins and 0 means its a draw
 const Victory = (computer, user) => {
 
     if (computer=="snake" && user=="water")
